@@ -1,0 +1,300 @@
+.error2,
+.preloader,
+.sound-bar,
+.text-center {
+    text-align: center
+}
+
+.header,
+body,
+html {
+    position: relative
+}
+
+body {
+    width: 100%;
+    background-color: rgba(0, 0, 0, .1)
+}
+
+body,
+html {
+    height: 100%
+}
+
+@font-face {
+    font-family: calibri;
+    font-weight: 400;
+    font-style: normal
+}
+
+.blender-pro-book,
+.hack-text {
+    font-family: blender-pro-book
+}
+
+.header {
+    background-color: rgba(0, 0, 0, .75);
+    height: 96px;
+    border-bottom: 2px groove rgba(255, 255, 255, .65)
+}
+
+video#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%)
+}
+
+.input-group,
+.logo {
+    position: relative
+}
+
+.blue-text-color1 {
+    color: rgba(0, 0, 0, .68);
+    font-size: 16px
+}
+
+.inner {
+    padding-bottom: 25px
+}
+
+.logo {
+    margin: auto;
+    opacity: 1
+}
+
+.blue-text-color {
+    color: rgba(249, 255, 9, .68);
+    font-size: 16px
+}
+
+.content {
+    min-height: calc(100% - 103px);
+    padding: 0;
+    margin-bottom: 0
+}
+
+.content:after {
+    content: "";
+    display: block
+}
+
+.section-hack-after,
+.section-hack-before {
+    position: relative;
+    padding-top: 110px;
+    padding-bottom: 20px
+}
+
+.panel-default>.panel-heading {
+    color: #fff;
+    background-color: rgba(255, 255, 255, .85);
+    border-color: #ddd;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0
+}
+
+.panel-heading>h1 {
+    font-size: 30px;
+    color: #000
+}
+
+.panel-body {
+    padding: 15px 15px 30px;
+    background-color: rgba(0, 0, 0, .75)
+}
+
+.panel {
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .6);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05)
+}
+
+.form-control,
+.input-group-addon {
+    font-size: 14px;
+    color: #555;
+    background-color: rgba(255, 255, 255, .9);
+    border-radius: 0;
+    -webkit-appearance: none
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 4px 12px;
+    line-height: 1.42857143;
+    background-image: none;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075)
+}
+
+.input-group-addon {
+    padding: 6px 12px;
+    font-weight: 400;
+    line-height: 1;
+    text-align: center
+}
+
+.input-group {
+    display: table;
+    border-collapse: separate;
+    padding-top: 0;
+    padding-bottom: 15px;
+    -webkit-appearance: none
+}
+
+.form-text {
+    font-size: 18px
+}
+
+.hack-text {
+    font-size: 20px;
+    color: #fff;
+    padding-top: 0
+}
+
+.fuk,
+.note {
+    color: #00ABFF
+}
+
+.h4-hack {
+    font-size: 27px;
+    color: #F4E531;
+    margin-bottom: 12px
+}
+
+hr {
+    width: 70px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    border: 0;
+    border-top: 1px solid #F4E531;
+    opacity: .7
+}
+
+.btn-default {
+    color: #fff;
+    background-color: rgba(26, 50, 76, .95);
+    border: 2px solid rgba(255, 255, 255, .4)
+}
+
+.btn-custom,
+.error {
+    background-color: rgba(255, 255, 255, .2)
+}
+
+.btn-custom {
+    border-radius: 0;
+    padding: 2px;
+    color: #fff;
+    border: 2px solid rgba(255, 255, 255, .8);
+    font-size: 22px
+}
+
+.error-holder {
+    padding-bottom: 7px
+}
+
+.error {
+    border: 2px solid rgba(255, 255, 255, .8);
+    padding: 5px;
+    opacity: .9;
+    color: #F4E531;
+    font-size: 17px
+}
+
+.error2 {
+    color: #F1FF10
+}
+
+.preloader {
+    padding-bottom: 19px
+}
+
+.sound-bar {
+    display: inline-block;
+    margin: -26px 0 0;
+    width: 83px;
+    height: 85px;
+    font-size: 24px
+}
+
+.sound-bar>div {
+    margin-bottom: 14px;
+    background-color: rgba(255, 255, 255, .8);
+    height: 100%;
+    width: 11px;
+    display: inline-block
+}
+
+@media (max-width:1024px) {
+    body,
+    html {
+        height: 100%
+    }
+    .hack-text {
+        padding-bottom: 0;
+        color: #fff;
+        font-size: 16px;
+        padding-top: 0
+    }
+    #bgvid,
+    .overlay {
+        display: none
+    }
+    html {
+        background: url(../img/bg.jpg) center center no-repeat fixed;
+        background-size: cover;
+        overflow: hidden
+    }
+    body {
+        overflow: scroll;
+        -webkit-overflow-scrolling: touch
+    }
+    .header {
+        position: relative;
+        background-color: rgba(0, 0, 0, .5);
+        height: 96px
+    }
+}
+
+@media (max-width:320px) {
+    .hack-text {
+        font-size: 19px;
+        color: #fff;
+        padding-top: 0;
+        padding-bottom: 0
+    }
+}
+
+.hide {
+    display: none
+}
+
+#overlay {
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    position: fixed;
+    background-color: #000;
+    padding-top: 250px
+}
+
+.pre-loader {
+    max-width: 600px;
+    margin: auto
+}
